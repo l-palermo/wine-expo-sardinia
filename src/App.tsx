@@ -1,23 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import NavigationBar from "./components/navigation-bar";
+import BackgroundImage from "./components/background-image";
+import PageContent from "./components/page-content";
+import Email from "./components/email";
+import FooterBar from "./components/footer-bar";
+import { ReactElement } from "react";
 
-function App() {
+function App(): ReactElement {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      <BackgroundImage />
+      <header className="pageWrapper">
+        {/* <Navigation /> */}
+        <NavigationBar />
+        <PageContent />
+        <Email />
+        <FooterBar />
+        {/* <Footer /> */}
       </header>
     </div>
   );

@@ -1,0 +1,12 @@
+.navigation {
+  grid-row: 1;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(253, 253, 253);
+}
+
+.imageLogo {
+  height: 400px;
+}
