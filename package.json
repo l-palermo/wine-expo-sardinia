@@ -2,7 +2,6 @@
   "name": "wine-festival-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://l-palermo.github.io/wine-expo-sardinia",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -19,8 +18,6 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
