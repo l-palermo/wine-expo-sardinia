@@ -1,12 +1,24 @@
 .navigation {
   grid-row: 1;
-  height: 9rem;
+  height: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(253, 253, 253);
 }
 
+@media (min-width: 768px) {
+  .navigation {
+    height: 9rem;
+  }
+}
+
 .imageLogo {
-  height: 400px;
+  height: 5rem;
+}
+
+@media (min-width: 768px) {
+  .imageLogo {
+    height: 7rem;
+  }
 }
