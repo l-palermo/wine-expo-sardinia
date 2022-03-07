@@ -15,9 +15,10 @@
   border-width: 2px;
   color: white;
   text-decoration: none;
-  font-size: 0.65rem;
   align-self: flex-end;
-  margin: 2rem -3rem 1rem 0;
+  margin: 4rem -3rem 1rem 0;
+  text-decoration: "none";
+  font-size: 0.8rem;
 }
 
 @media (min-width: 768px) {
@@ -25,5 +26,33 @@
     width: 13rem;
     height: 13rem;
     margin-top: 11rem;
+  }
+}
+
+.contattaci {
+  margin: 0;
+  font-weight: 300;
+  font-size: inherit;
+}
+
+@media (min-width: 768px) {
+  .contattaci {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+}
+
+.emailAddress {
+  margin: 0;
+  font-weight: 400;
+  font-size: inherit;
+}
+
+@media (min-width: 768px) {
+  .emailAddress {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
   }
 }

@@ -55,7 +55,13 @@
 
 @media (min-width: 768px) {
   .text {
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 2.5rem;
     margin: 0;
   }
+}
+
+.textComingSoon {
+  font-weight: 200;
+  margin: 0;
 }
