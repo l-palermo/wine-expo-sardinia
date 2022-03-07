@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/wine-festival-landing/static/css/main.114e4466.css",
+    "main.js": "/wine-festival-landing/static/js/main.f62cd641.js",
+    "static/js/787.01fc8f42.chunk.js": "/wine-festival-landing/static/js/787.01fc8f42.chunk.js",
+    "static/media/bg.jpg": "/wine-festival-landing/static/media/bg.659a2c523c960b73b8cb.jpg",
+    "static/media/comune.png": "/wine-festival-landing/static/media/comune.87762f11d21049f97518.png",
+    "static/media/wine-expo-logo.png": "/wine-festival-landing/static/media/wine-expo-logo.37eafad7a2c4ea19aa37.png",
+    "static/media/regione.png": "/wine-festival-landing/static/media/regione.4b63eab821488f6a70f9.png",
+    "index.html": "/wine-festival-landing/index.html",
+    "main.114e4466.css.map": "/wine-festival-landing/static/css/main.114e4466.css.map",
+    "main.f62cd641.js.map": "/wine-festival-landing/static/js/main.f62cd641.js.map",
+    "787.01fc8f42.chunk.js.map": "/wine-festival-landing/static/js/787.01fc8f42.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.114e4466.css",
+    "static/js/main.f62cd641.js"
+  ]
+}
