@@ -6,7 +6,7 @@ import FooterBar from "./components/footer-bar";
 import { ReactElement } from "react";
 
 function App(): ReactElement {
-  window.screen.orientation.lock("natural");
+  // window.screen.orientation.lock("natural");
   return (
     <div className="app">
       <BackgroundImage />
